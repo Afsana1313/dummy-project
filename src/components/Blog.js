@@ -22,7 +22,7 @@ function Blog() {
         article.map(i => {
           
           return   <BlogPost
-               
+                 key={i.title}
                article={i}
             />
         })

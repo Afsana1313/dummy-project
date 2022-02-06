@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React,{useEffect} from 'react';
 import '../style/sidepanel.css'
 import {
   Link
@@ -6,6 +6,17 @@ import {
 import {CloseOutlined} from '@ant-design/icons'
 
 function SidePanel(props) {
+ 
+  useEffect(() => {
+     const container = document.getElementById('container')
+   container.addEventListener('click', () => {
+    // console.log('add')
+     if(props.isClose) props.onClick();
+   })
+    return () => {
+      window.removeEventListener('click')
+    };
+  }, [])
   const sidepanelStyle = {
     left: props.isClose ? `-100%` : 0
   }
@@ -28,7 +39,7 @@ function SidePanel(props) {
                     <Link to="/blog">Blog</Link>
                   </li>
                   <li>
-                    <Link to="/about">About</Link>
+                    <Link to="/contact">Contact</Link>
                   </li>
                 </ul>
               </nav>

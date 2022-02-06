@@ -1,7 +1,7 @@
 import React from 'react';
 
 function WholeLayout({children}) {
-    return <div className='container'>
+    return <div id='container' className='container'>
       {children}
   </div>;
 }

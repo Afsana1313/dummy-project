@@ -7,7 +7,7 @@ import {
 } from "react-router-dom";
 import Home from './Home';
 import Blog from './Blog';
-import About from './About';
+import Contact from './Contact';
 import WholeLayout from './WholeLayout';
 import '../style/routecontainer.css'
 import { MenuOutlined } from '@ant-design/icons';
@@ -29,7 +29,7 @@ function Layout() {
                   <Routes>
                   
                     <Route path="/blog" element={<WholeLayout><Blog /></WholeLayout>} />
-                    <Route path="/about" element={  <WholeLayout><About /></WholeLayout>}/>
+                    <Route path="/contact" element={  <WholeLayout><Contact /></WholeLayout>}/>
                     <Route path="/" element={<WholeLayout><Home /></WholeLayout>}/>
                       
                   </Routes>

@@ -1,8 +1,14 @@
 import React from 'react';
 
 function BlogPost({ article}) {
-    return <div>
-     {article.author} {article.url}{article.urlToImg}
+  return <div className='single-blog-post'>
+    
+      <img
+        className='single-blog-post-img'
+          src={`${article.urlToImage}`}
+        />
+  
+    
   </div>;
 }
 
