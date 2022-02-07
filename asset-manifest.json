@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.14e0bb87.css",
-    "main.js": "/static/js/main.668a910e.js",
-    "static/js/787.116a5f5a.chunk.js": "/static/js/787.116a5f5a.chunk.js",
-    "static/media/Afsana_Zaman_Nipa.jpg": "/static/media/Afsana_Zaman_Nipa.be85711024e6bf188152.jpg",
-    "index.html": "/index.html",
-    "main.14e0bb87.css.map": "/static/css/main.14e0bb87.css.map",
-    "main.668a910e.js.map": "/static/js/main.668a910e.js.map",
-    "787.116a5f5a.chunk.js.map": "/static/js/787.116a5f5a.chunk.js.map"
+    "main.css": "/project/static/css/main.14e0bb87.css",
+    "main.js": "/project/static/js/main.c5415745.js",
+    "static/js/787.116a5f5a.chunk.js": "/project/static/js/787.116a5f5a.chunk.js",
+    "static/media/Afsana_Zaman_Nipa.jpg": "/project/static/media/Afsana_Zaman_Nipa.be85711024e6bf188152.jpg",
+    "index.html": "/project/index.html",
+    "main.14e0bb87.css.map": "/project/static/css/main.14e0bb87.css.map",
+    "main.c5415745.js.map": "/project/static/js/main.c5415745.js.map",
+    "787.116a5f5a.chunk.js.map": "/project/static/js/787.116a5f5a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.14e0bb87.css",
-    "static/js/main.668a910e.js"
+    "static/js/main.c5415745.js"
   ]
 }
