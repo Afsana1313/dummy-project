@@ -5,7 +5,6 @@ import BlogPost from './BlogPost';
 //https://newsapi.org/v2/everything?q=keyword&apiKey=
 function Blog() {
   const [article, setArticle] = useState([]);
-  var d = [1,2,3,4,5,6]
   useEffect(() => {
     fetch(`${baseUrl}${ApiKey}`)
       .then(res => res.json())
@@ -16,15 +15,15 @@ function Blog() {
       )
   },[])
   return <div className='blog-container'>
-   
+     <h2>Blog Posts</h2>
     <div className='blog-grid'>
       {
         article.map(i => {
           
           return   <BlogPost
-                 key={i.title}
-               article={i}
-            />
+                      key={i.title}
+                      article={i}
+                  />
         })
         }   
            

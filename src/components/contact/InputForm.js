@@ -7,7 +7,6 @@ function InputForm() {
   const [email, setEmail] = useState('Email Address')
   const [message, setMessage] = useState('Message')
      const handleSubmit = (e) => {
-    console.log('working')
     e.preventDefault();
     }
     const submitStyle = {
