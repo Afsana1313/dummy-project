@@ -11,8 +11,8 @@ function Blog() {
       .then((res) => {
         setArticle(res.articles);
         console.log(res.articles)
-      }
-      )
+      })
+     .catch((e) => console.log(e))
   },[])
   return <div className='blog-container'>
      <h2>Blog Posts</h2>
